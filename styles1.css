@@ -1,0 +1,36 @@
+/* styles1.css */
+.main-padding-top {
+  padding-top: 120px; /* o el tamaño que necesites */
+}
+
+
+/* 1) Base */
+body {
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+
+
+/* 3) Titulares */
+h1, h2 {
+  font-weight: 700;
+  color: #003366;
+}
+
+/* 4) Tarjetas */
+.card {
+  border: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
